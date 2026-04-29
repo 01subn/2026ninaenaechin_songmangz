@@ -544,3 +544,32 @@ footer {
   opacity: 1;
   transform: none;
 }
+
+
+/* ── CLOSING ── */
+.closing-section {
+  padding: 160px 24px;
+  text-align: center;
+  border-top: 1px solid #1e1e1e;
+}
+.closing-inner { max-width: 800px; margin: 0 auto; }
+.closing-sub {
+  font-size: 12px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--pink);
+  margin-bottom: 16px;
+}
+.closing-title {
+  font-family: 'CWDangamAsac', sans-serif;
+  font-weight: 700;
+  font-size: clamp(56px, 12vw, 120px);
+  line-height: 1;
+  color: var(--white);
+  margin-bottom: 32px;
+}
+.closing-desc {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.9;
+}
