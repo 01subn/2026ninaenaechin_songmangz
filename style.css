@@ -28,6 +28,8 @@ body {
   cursor: none;
 }
 
+.pink { color: var(--pink); }
+
 /* Custom cursor */
 .cursor {
   position: fixed;
